@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-express-template-generator",
+  "version": "1.0.1",
+  "description": "A CLI to generate a Node.js Express.js project template",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-nodejs-express-app": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "prettier": "^3.3.3"
+  }
+}
